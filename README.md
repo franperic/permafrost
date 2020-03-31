@@ -21,7 +21,7 @@ Results of the Permafrost Hackathon (Team Aroma).
 │   └── timelapse_images_fast
 │       ├── 2017-01-01
 │       ├── 2017-01-02
-│       ├── ...
+│       └── ...
 ├── 02_code
 │   ├── helperfunctions.py
 │   └── movement_detection.py
