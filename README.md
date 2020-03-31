@@ -5,4 +5,18 @@
 <br>
 
 # Permafrost
+
+## Overview
+
 Results of the Permafrost Hackathon (Team Aroma).
+
+
+## Folder Structure
+.
+    ├── ...
+    ├── 01_data
+    │   ├── timelapse_images_fast
+    |   |   ├── 2017-01-01
+    |   |   ├── 2017-01-02
+    |   |   ├── ...
+        ├── 02_code
