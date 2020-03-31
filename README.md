@@ -1,4 +1,4 @@
-![header](./00_input/image001.jpg)
+![header](./00_input/image001.jpg =250x)
 
-# permafrost
+# Permafrost
 Results of the Permafrost Hackathon (Team Aroma).
