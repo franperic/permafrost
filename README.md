@@ -25,4 +25,6 @@ Results of the Permafrost Hackathon (Team Aroma).
 ├── 02_code
 │   ├── helperfunctions.py
 │   └── movement_detection.py
+├── LICENSE
+└── README.md
 ```
