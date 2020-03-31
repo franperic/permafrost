@@ -12,11 +12,17 @@ Results of the Permafrost Hackathon (Team Aroma).
 
 
 ## Folder Structure
+
+```
 .
-    ├── ...
-    ├── 01_data
-    │   ├── timelapse_images_fast
-    |   |   ├── 2017-01-01
-    |   |   ├── 2017-01-02
-    |   |   ├── ...
-        ├── 02_code
+├── 00_input
+│   └── image001.jpg
+├── 01_data
+│   └── timelapse_images_fast
+│       ├── 2017-01-01
+│       ├── 2017-01-02
+│       ├── ...
+├── 02_code
+│   ├── helperfunctions.py
+│   └── movement_detection.py
+```
