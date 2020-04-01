@@ -7,8 +7,8 @@
 # Permafrost
 
 ## Overview
+This repo corresponds to the following [blogpost](www.statworx.com/ch/blog).
 
-Results of the Permafrost Hackathon (Team Aroma).
 
 
 ## Folder Structure
@@ -29,5 +29,7 @@ Results of the Permafrost Hackathon (Team Aroma).
 │   ├── helperfunctions.py
 │   └── movement_detection.py
 ├── LICENSE
-└── README.md
+├── README.md
+├── requirements.txt
+└── setup.sh
 ```
