@@ -15,10 +15,10 @@ Visit the Hackathon [repo](https://github.com/ETHZ-TEC/permafrostanalytics) for 
 
 ## Data
 Visit the above mentioned hackathon repo to download the relevant data source.
-For reproducability only download the source `timelapse_images_fast.zip`.
+For reproducability only the data source `timelapse_images_fast.zip` is necessary.
 
-
-## Folder Structure
+### Folder Structure
+Make sure your folder structure looks like this:
 
 ```
 .
@@ -40,3 +40,6 @@ For reproducability only download the source `timelapse_images_fast.zip`.
 ├── requirements.txt
 └── setup.sh
 ```
+
+## Contact
+If there are any questions, don't hesitate to shoot me an [email](fran.peric@statworx.com).
