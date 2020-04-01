@@ -7,8 +7,7 @@
 # Permafrost
 
 ## Overview
-This repo corresponds to the following [blogpost](www.statworx.com/ch/blog).
-
+This repo corresponds to the following [blogpost](https://www.statworx.com/ch/blog).
 
 
 ## Folder Structure
