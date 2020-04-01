@@ -20,6 +20,9 @@ Results of the Permafrost Hackathon (Team Aroma).
 ├── 01_data
 │   └── timelapse_images_fast
 │       ├── 2017-01-01
+│           ├── 20170101_070009.JPG
+│           ├── 20170101_070409.JPG
+│           └── ...
 │       ├── 2017-01-02
 │       └── ...
 ├── 02_code
