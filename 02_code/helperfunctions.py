@@ -10,13 +10,6 @@ from collections import Counter
 import matplotlib.pyplot as plt
 
 
-
-def add(a, b):
-    """
-    Crazy math stuff
-    """
-    return a + b
-
 def load_images(paths, col=False):
     """
     Load all images from specified path
