@@ -13,6 +13,13 @@ For more background information check the following [blogpost](https://www.statw
 The presented code and approach is the result of Team Aroma.
 Visit the Hackathon [repo](https://github.com/ETHZ-TEC/permafrostanalytics) for other contributions.
 
+## Goal
+
+Our team focused on the detection of movements on the images. Below you will find some examples.
+
+![img1](00_input/movement.png)
+![img2](00_input/change_map_exmpl1.png)
+
 ## Data
 Visit the above mentioned hackathon repo to download the relevant data source.
 For reproducability only the data source `timelapse_images_fast.zip` is necessary.
