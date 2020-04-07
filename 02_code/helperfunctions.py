@@ -12,7 +12,9 @@ import matplotlib.pyplot as plt
 
 def load_images(paths, col=False):
     """
-    Load all images from specified path
+    Load all images from specified path.
+    For illustration reasons the dates are chosen by the index.
+    The same examples as in the blogpost are used.
     """
     images = []
     if col == True:
@@ -35,6 +37,9 @@ def extract_dim(image_object):
     return dim[0]
 
 def reshape_images(image1, image2):
+    """
+    Adjust image such that it is divideable into 5x5 pixel images
+    """
     if extract_dim(image1) > 2:
         n = image1.shape[0]
         new_size = np.asarray(image1[0].shape) / 5
@@ -78,7 +83,10 @@ def subtract_c_images(image1, image2):
     return np.abs(im1 - im2)
 
 def find_vector_set(diff_image, new_size, h):
-    
+    """
+    This function returns a flattened matrix of the image blocks and
+    the corresponding mean vector.
+    """
     i = 0
     j = 0
     vector_set = np.zeros((int(new_size[0] * new_size[1] / h**2), h**2))
@@ -100,6 +108,10 @@ def find_vector_set(diff_image, new_size, h):
 
 
 def find_FVS(EVS, diff_image, mean_vec, new):
+    """
+    Transform the difference image onto the 
+    new feature space using the eigen vectors.
+    """
     i = 2
     feature_vector_set = []
     while i < new[0] - 2:
@@ -117,6 +129,10 @@ def find_FVS(EVS, diff_image, mean_vec, new):
 
 
 def clustering(FVS, components, new):
+    """
+    Using the KMeans algorithm to cluster in two groups:
+    change and no change.
+    """
     kmeans = KMeans(components, verbose = 0)
     kmeans.fit(FVS)
     output = kmeans.predict(FVS)
