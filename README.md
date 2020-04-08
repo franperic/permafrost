@@ -8,6 +8,7 @@
 
 ## Overview
 This repo is a summary of the Permafrost Hackathon, which took place at the ETH Zurich end of November 2019.
+
 For more background information check the following [blogpost](https://www.statworx.com/ch/blog).
 
 The presented code and approach is the result of Team Aroma.
