@@ -19,7 +19,7 @@ Our team focused on the detection of movements on stationary images. Below is an
 
 ![img1](00_input/movement.png)
 
-There is some noise in the difference image from alterations in light. Hence, we implemented a method (based on Turgay Celik's [paper](https://github.com/leduckhai/Change-Detection-PCA-KMeans/blob/master/Change Detection paper.pdf)) to extract the relevant movements/changes in our sequential images. Check the comparison below. 
+There is some noise in the difference image from alterations in light. Hence, we implemented a method (based on Turgay Celik's paper *Unsupervised Change Detection in Satellite Images Using Principal Components Analysis and k-Means Clustering, 2009*) to extract the relevant movements/changes in our sequential images. Check the comparison below. 
 
 
 ![img2](00_input/change_map_exmpl1.png)
