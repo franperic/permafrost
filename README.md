@@ -13,11 +13,15 @@ For more background information check the following [blogpost](https://www.statw
 The presented code and approach is the result of Team Aroma.
 Visit the Hackathon [repo](https://github.com/ETHZ-TEC/permafrostanalytics) for other contributions.
 
-## Goal
+## Our Goal
 
-Our team focused on the detection of movements on the images. Below you will find some examples.
+Our team focused on the detection of movements on stationary images. Below is an example. It might be hard to spot but there are mountaineers on the pictures. However, the pictures are four minutes apart. In column C the difference image (A - B) is depicted. Clearly, the movements of mountaineers can be spotted.
 
 ![img1](00_input/movement.png)
+
+There is some noise in the difference image from alterations in light. Hence, we implemented a method (based on Turgay Celik's [paper](https://github.com/leduckhai/Change-Detection-PCA-KMeans/blob/master/Change Detection paper.pdf)) to extract the relevant movements/changes in our sequential images. Check the comparison below. 
+
+
 ![img2](00_input/change_map_exmpl1.png)
 
 ## Data
